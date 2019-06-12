@@ -1,0 +1,18 @@
+INSERT INTO CONTACT (CONTACT_ID, CONTACT_NAME)
+values (1, 'Google');
+INSERT INTO CONTACT (CONTACT_ID, CONTACT_NAME)
+values (2, 'Лента');
+INSERT INTO CONTACT (CONTACT_ID, CONTACT_NAME)
+values (3, 'Планета Здоровья');
+
+INSERT INTO APPLICATION (APPLICATION_ID, PRODUCT_NAME, DT_CREATED, CONTACT_ID)
+values (1, 'Big deal for 1 million dollars',  {ts '2019-06-15 17:00:45.778'}, 1);
+
+INSERT INTO APPLICATION (APPLICATION_ID, PRODUCT_NAME, DT_CREATED, CONTACT_ID)
+values (2, 'Заказ: Абсент, Jagermeister, Jack Daniels',  {ts '2019-06-15 18:30:00.321'}, 2);
+
+INSERT INTO APPLICATION (APPLICATION_ID, PRODUCT_NAME, DT_CREATED, CONTACT_ID)
+values (3, 'Заказ: Активинованный уголь, Анальгин',  {ts '2019-06-17 18:30:52.123'}, 3);
+
+INSERT INTO APPLICATION (APPLICATION_ID, PRODUCT_NAME, DT_CREATED, CONTACT_ID)
+values (4, 'Заказ: Боржоми, Сок добрый, Чай ахмад',  {ts '2019-06-17 18:50:00.689'}, 2);
