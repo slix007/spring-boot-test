@@ -1,5 +1,13 @@
 # build
-mvn clean install
+./mvnw clean install
 
 # run
-mvn clean install
+./mvnw spring-boot:run
+
+# check
+
+`curl -X GET http://localhost:8080/contact/1/lastapp`
+
+`curl -X GET http://localhost:8080/contact/2/lastapp`
+
+`curl -X GET http://localhost:8080/contact/3/lastapp`
